@@ -1,11 +1,14 @@
-import { MainSection } from './components';
+import { Main, Skills } from './components';
 
 const App = () => {
   return (
     <div>
-      <main className='px-6'>
+      <main className='mx-6'>
         <section className='min-h-screen'>
-          <MainSection />
+          <Main />
+        </section>
+        <section className='min-h-screen'>
+          <Skills />
         </section>
       </main>
     </div>

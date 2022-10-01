@@ -1,12 +1,11 @@
-import { BsMoonStarsFill } from 'react-icons/bs';
 import {
   AiFillTwitterCircle,
   AiFillGithub,
   AiFillInstagram,
   AiFillLinkedin,
 } from 'react-icons/ai';
-
-const MainSection = () => {
+import { BsMoonStarsFill } from 'react-icons/bs';
+const Main = () => {
   return (
     <div>
       <nav className='flex justify-between items-center mt-4 mb-10'>
@@ -20,7 +19,7 @@ const MainSection = () => {
       </nav>
       <div className='text-center p-6'>
         <h1 className='text-4xl py-2 font-bold text-indigo-500'>Tom Martin</h1>
-        <h3 className='text-2xl py-2'>Developer and learner.</h3>
+        <h3 className='text-2xl py-2'>Junior-Developer and learner.</h3>
         <p className='py-5 text-gray-600'>
           I create Websites, Apps and little Projects for myself or friends.
           Join me down below to get and stay in touch!
@@ -32,11 +31,11 @@ const MainSection = () => {
         <AiFillTwitterCircle />
         <AiFillInstagram />
       </div>
-      <div className='overflow-hidden mx-auto bg-gradient-to-b from-indigo-500 to-purple-500 rounded-full w-80 h-62 mt-20'>
+      <div className='overflow-hidden mx-auto bg-gradient-to-b from-indigo-500 to-purple-500 rounded-full w-80 h-62 my-20'>
         <img src='me.png' alt='me' className='object-cover' />
       </div>
     </div>
   );
 };
 
-export default MainSection;
+export default Main;

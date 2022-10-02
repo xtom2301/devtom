@@ -4,12 +4,13 @@ import {
   SiGnubash,
   SiIonic,
   SiJavascript,
-  SiMysql,
+  SiDatabricks,
   SiPrisma,
   SiReact,
   SiTailwindcss,
   SiTypescript,
-  SiVercel,
+  SiGithub,
+  SiNodedotjs,
 } from 'react-icons/si';
 
 export const frameworks = [
@@ -17,6 +18,11 @@ export const frameworks = [
     name: 'React',
     percent: '75%',
     icon: <SiReact />,
+  },
+  {
+    name: 'NodeJS/Express',
+    percent: '50%',
+    icon: <SiNodedotjs />,
   },
   {
     name: 'Ionic',
@@ -37,9 +43,9 @@ export const tools = [
     icon: <SiGit />,
   },
   {
-    name: 'Vercel',
-    percent: '90%',
-    icon: <SiVercel />,
+    name: 'Github/Gitlab',
+    percent: '60%',
+    icon: <SiGithub />,
   },
   {
     name: 'Firebase',
@@ -65,9 +71,9 @@ export const languages = [
     icon: <SiTypescript />,
   },
   {
-    name: 'MySQL',
+    name: 'SQL',
     percent: '60%',
-    icon: <SiMysql />,
+    icon: <SiDatabricks />,
   },
   {
     name: 'Bash',

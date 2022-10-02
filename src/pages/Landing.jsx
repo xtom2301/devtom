@@ -1,4 +1,4 @@
-import { Main, Skills } from '../components';
+import { FeaturedProjects, Main, Skills } from '../components';
 
 const Landing = () => {
   return (
@@ -8,6 +8,9 @@ const Landing = () => {
       </section>
       <section>
         <Skills />
+      </section>
+      <section>
+        <FeaturedProjects />
       </section>
     </main>
   );

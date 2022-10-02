@@ -81,3 +81,18 @@ export const languages = [
     icon: <SiGnubash />,
   },
 ];
+
+export const latestProjects = [
+  {
+    thumbnail: 'color-guesser.png',
+    name: 'Color-Guesser',
+    desc: 'Simple Color Guesser Game with Score and Highscore',
+    technologies: ['React', 'Tailwind', 'Jotai'],
+  },
+  {
+    thumbnail: 'jata.png',
+    name: 'JATA Todo App',
+    desc: 'Just another Todo App',
+    technologies: ['React', 'Tailwind', 'Jotai'],
+  },
+];

@@ -9,8 +9,8 @@ const Skills = () => {
       </h1>
       <div className='md:flex md:justify-center md:gap-8'>
         <ProLanguages />
-        <Frameworks />
         <Tools />
+        <Frameworks />
       </div>
     </div>
   );

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Navbar = ({ setDarkMode, darkMode }) => {
   return (
-    <nav className='sticky top-6 flex justify-between items-center mt-4 mb-10 sm:px-4 dark:bg-gray-800'>
+    <nav className='sticky top-6 flex justify-between items-center mt-4 mb-10 sm:px-4'>
       <Link to='/' className='text-xl font-bold dark:text-white'>
         devtom.me
       </Link>

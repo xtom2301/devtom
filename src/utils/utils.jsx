@@ -88,11 +88,13 @@ export const latestProjects = [
     name: 'Color-Guesser',
     desc: 'Simple Color Guesser Game with Score and Highscore',
     technologies: ['React', 'Tailwind', 'Jotai'],
+    link: 'https://color-guesser.vercel.app/',
   },
   {
     thumbnail: 'jata.png',
     name: 'JATA Todo App',
     desc: 'Just another Todo App',
     technologies: ['React', 'Tailwind', 'Jotai'],
+    link: 'https://jata-xi.vercel.app/',
   },
 ];

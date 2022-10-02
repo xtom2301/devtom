@@ -7,14 +7,16 @@ const FeaturedProjects = () => {
       <h1 className='text-3xl font-bold text-center mb-6 mt-20'>
         latest <span className='text-indigo-500'>Projects</span>
       </h1>
-      <div className='flex flex-col items-center sm:flex-row justify-center sm:gap-4 md:gap-24'>
-        {latestProjects.map(({ name, thumbnail, desc, technologies }) => (
-          <div
+      <div className='flex flex-col items-center md:flex-row justify-center md:items-stretch md:gap-24'>
+        {latestProjects.map(({ name, thumbnail, desc, technologies, link }) => (
+          <a
+            href={link}
+            target='_blank'
             key={name}
-            className='p-4 mb-4 max-w-sm w-96 h-auto bg-white rounded-lg border border-gray-200 shadow-md '
+            className='hover:scale-105 cursor-pointer p-4 mb-4 max-w-sm w-96 h-auto bg-white rounded-lg border border-gray-200 shadow-md '
           >
             <img
-              className='rounded-t-lg mx-auto object-fill mt-4 h-40 w-auto'
+              className='rounded-t-lg mx-auto object-fill h-44 w-auto'
               src={thumbnail}
               alt=''
             />
@@ -33,16 +35,15 @@ const FeaturedProjects = () => {
                 </ul>
               </div>
             </div>
-          </div>
+          </a>
         ))}
       </div>
-      <div className='flex gap-1 justify-center items-center mt-10'>
-        <h1 className='text-2xl'>For more Projects:</h1>
+      <div className='mt-10'>
         <Link
           to='/portfolio'
           className='bg-gradient-to-r from-indigo-500 to-purple-500 text-white px-4 py-2 rounded-md'
         >
-          Click Me!
+          Click Me for more Projects!
         </Link>
       </div>
     </div>

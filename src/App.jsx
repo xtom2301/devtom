@@ -16,15 +16,15 @@ const App = () => {
   }, [darkMode]);
 
   return (
-    <div
-      className={`mx-6 md:max-w-screen-lg md:mx-auto ${darkMode ? 'dark' : ''}`}
-    >
+    <div className={`mx-6 ${darkMode ? 'dark' : ''}`}>
       <Router>
         <Navbar setDarkMode={setDarkMode} darkMode={darkMode} />
-        <Routes>
-          <Route path='/' element={<Landing />} />
-          <Route path='/portfolio' element={<Portfolio />} />
-        </Routes>
+        <div className='md:max-w-screen-lg md:mx-auto'>
+          <Routes>
+            <Route path='/' element={<Landing />} />
+            <Route path='/portfolio' element={<Portfolio />} />
+          </Routes>
+        </div>
       </Router>
     </div>
   );

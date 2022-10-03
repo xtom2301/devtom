@@ -84,6 +84,13 @@ export const languages = [
 
 export const latestProjects = [
   {
+    thumbnail: 'crypto_viewer.png',
+    name: 'Crypto-Viewer',
+    desc: 'Show Coins, Add Favorites, See Details and 7 Day Chart',
+    technologies: ['React', 'Tailwind', 'Zustand'],
+    link: 'https://crypto-viewer-rose.vercel.app/',
+  },
+  {
     thumbnail: 'color-guesser.png',
     name: 'Color-Guesser',
     desc: 'Simple Color Guesser Game with Score and Highscore',

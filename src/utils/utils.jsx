@@ -78,10 +78,11 @@ export const languages = [
 
 export const latestProjects = [
   {
-    thumbnail: "color-guesser.png",
-    name: "Color-Guesser",
-    desc: "Simple Color Guesser Game with Score and Highscore",
-    technologies: ["React", "Tailwind", "Jotai"],
-    link: "",
+    thumbnail: "devtom.png",
+    name: "devtom.io",
+    desc: "The website you see here :)",
+    technologies: ["React", "Jotai"],
+    link: "/",
+    github: "https://github.com/xtom2301/devtom",
   },
 ];

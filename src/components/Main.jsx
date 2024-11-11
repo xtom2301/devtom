@@ -1,4 +1,4 @@
-import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
+import { AiFillGithub, AiFillInstagram, AiFillMail } from "react-icons/ai";
 import { FaSquareXTwitter } from "react-icons/fa6";
 
 const Main = () => {
@@ -13,7 +13,7 @@ const Main = () => {
           <img src="me.JPG" alt="me" className="object-cover" />
         </div>
         <p className="py-5 text-gray-600 sm:w-96 sm:mx-auto dark:text-gray-400">
-          I create Websites and little Projects for myself, friends or clients.
+          I create Websites and little Projects for myself, friends or others.
           Join me down below to get and stay in touch!
         </p>
       </div>
@@ -27,6 +27,10 @@ const Main = () => {
         </a>
         <a href="https://www.instagram.com/lll_t_o_m_lll/" target="_blank">
           <AiFillInstagram className="cursor-pointer dark:text-white" />
+        </a>
+        <a href="mailto: xtom2301@gmail.com">
+          {" "}
+          <AiFillMail className="cursor-pointer dark:text-white" />{" "}
         </a>
       </div>
     </div>

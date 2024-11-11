@@ -78,23 +78,9 @@ export const languages = [
 
 export const latestProjects = [
   {
-    thumbnail: "crypto_viewer.png",
-    name: "Crypto-Viewer",
-    desc: "Show Coins, Add Favorites, See Details and 7 Day Chart",
-    technologies: ["React", "Tailwind", "Zustand"],
-    link: "",
-  },
-  {
     thumbnail: "color-guesser.png",
     name: "Color-Guesser",
     desc: "Simple Color Guesser Game with Score and Highscore",
-    technologies: ["React", "Tailwind", "Jotai"],
-    link: "",
-  },
-  {
-    thumbnail: "jata.png",
-    name: "JATA Todo App",
-    desc: "Just another Todo App",
     technologies: ["React", "Tailwind", "Jotai"],
     link: "",
   },

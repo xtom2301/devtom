@@ -5,7 +5,6 @@ import {
   SiIonic,
   SiJavascript,
   SiDatabricks,
-  SiPrisma,
   SiReact,
   SiTailwindcss,
   SiTypescript,
@@ -51,11 +50,6 @@ export const tools = [
     name: "Firebase",
     percent: "70%",
     icon: <SiFirebase />,
-  },
-  {
-    name: "Prisma",
-    percent: "40%",
-    icon: <SiPrisma />,
   },
 ];
 

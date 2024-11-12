@@ -1,9 +1,9 @@
-import { FeaturedProjects, Main, Skills } from '../components';
+import { FeaturedProjects, Main, Skills } from "../components";
 
 const Landing = () => {
   return (
     <main>
-      <section className='min-h-screen'>
+      <section>
         <Main />
       </section>
       <section>

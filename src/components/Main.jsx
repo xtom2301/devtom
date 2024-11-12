@@ -3,7 +3,7 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 
 const Main = () => {
   return (
-    <div className="sm:flex sm:justify-center sm:flex-col min-h-screen">
+    <div className="sm:flex sm:justify-center sm:flex-col mb-20">
       <div className="text-center p-6">
         <h1 className="text-4xl py-2 font-bold text-indigo-500 ">Tom Martin</h1>
         <h3 className="text-2xl py-2 dark:text-white">

@@ -40,7 +40,7 @@ const ProjectCard = ({ name, thumbnail, desc, technologies, link, github }) => {
           target="_blank"
           className="hover:scale-105 cursor-pointer bg-gradient-to-r from-indigo-500 to-purple-500 text-white rounded-md w-full text-center py-2"
         >
-          Github Repo
+          Github
         </a>
       </div>
     </div>

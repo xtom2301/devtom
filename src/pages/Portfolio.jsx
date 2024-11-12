@@ -1,14 +1,17 @@
 import { ProjectCard } from "../components";
-import { latestProjects } from "../utils/utils";
+import { useQuery } from "convex/react";
+import { api } from "../../convex/_generated/api";
 
 const Portfolio = () => {
+  const projects = useQuery(api.projects.getAllProjects);
+
   return (
     <div>
       <div className="flex flex-col items-center md:flex-row justify-center md:items-stretch md:gap-24 text-center">
-        {latestProjects.map(
-          ({ name, thumbnail, desc, technologies, link, github }, idx) => (
+        {projects?.map(
+          ({ name, thumbnail, desc, technologies, link, github, _id }) => (
             <ProjectCard
-              key={idx}
+              key={_id}
               name={name}
               thumbnail={thumbnail}
               desc={desc}

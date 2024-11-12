@@ -11,6 +11,8 @@ import {
   SiGithub,
   SiNodedotjs,
 } from "react-icons/si";
+import { CiDatabase } from "react-icons/ci";
+import { TbBrandNextjs } from "react-icons/tb";
 
 export const frameworks = [
   {
@@ -33,6 +35,11 @@ export const frameworks = [
     percent: "80%",
     icon: <SiTailwindcss />,
   },
+  {
+    name: "NextJS",
+    percent: "30%",
+    icon: <TbBrandNextjs />,
+  },
 ];
 
 export const tools = [
@@ -51,12 +58,17 @@ export const tools = [
     percent: "70%",
     icon: <SiFirebase />,
   },
+  {
+    name: "Convex",
+    percent: "30%",
+    icon: <SiDatabricks />,
+  },
 ];
 
 export const languages = [
   {
     name: "Javascript",
-    percent: "75%",
+    percent: "78%",
     icon: <SiJavascript />,
   },
   {
@@ -66,23 +78,12 @@ export const languages = [
   },
   {
     name: "SQL",
-    percent: "60%",
-    icon: <SiDatabricks />,
+    percent: "40%",
+    icon: <CiDatabase />,
   },
   {
     name: "Bash",
     percent: "65%",
     icon: <SiGnubash />,
-  },
-];
-
-export const latestProjects = [
-  {
-    thumbnail: "devtom.png",
-    name: "devtom.io",
-    desc: "The website you see here :)",
-    technologies: ["React", "Jotai"],
-    link: "/",
-    github: "https://github.com/xtom2301/devtom",
   },
 ];
